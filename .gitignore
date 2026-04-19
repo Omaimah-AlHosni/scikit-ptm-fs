@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+dist/
+*.egg-info/
+.DS_Store
+.ipynb_checkpoints/
+git_cleanup.ipynb
+dist/
+*.egg-info/
+.DS_Store
+.ipynb_checkpoints/
+git_cleanup.ipynb
