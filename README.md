@@ -1,10 +1,11 @@
-# Scikit-PTM-FS
+# scikit-ptm-fs
 
 [![PyPI version](https://badge.fury.io/py/scikit-ptm-fs.svg)](https://pypi.org/project/scikit-ptm-fs/)
 [![Python](https://img.shields.io/badge/python-3.7+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
+[![Tests](https://github.com/Omaimah-AlHosni/scikit-ptm-fs/actions/workflows/python-test.yml/badge.svg)](https://github.com/Omaimah-AlHosni/scikit-ptm-fs/actions)
 
-**Scikit-PTM-FS** is a Python library that enables seamless integration of `scikit-learn` feature selection methods with multi-label classification via problem transformation methods (PTMs). The framework enables transformation-aware feature selection without requiring classification stages, allowing researchers to analyze the behavior of FS methods across various PTMs.
+**scikit-ptm-fs** is a Python library that enables seamless integration of `scikit-learn` feature selection methods with multi-label classification via problem transformation methods (PTMs). The framework enables transformation-aware feature selection without requiring classification stages, allowing researchers to analyze the behavior of FS methods across various PTMs.
 
 ---
 
