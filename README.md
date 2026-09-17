@@ -56,7 +56,6 @@ print("The Number of Selected Features:", len(indices))
 - **Label Powerset (LP)** — Unique labelset encoding.
 - **Pairwise Comparison (PW)** — One-vs-One label pair modeling.
 - **Pruned Problem Transformation (PPT)** — Labelset pruning before transformation.
-- **Entropy-based Label Assignment (ELA)** — Copy-based transformation for NLP.
 
 ---
 
