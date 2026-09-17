@@ -29,6 +29,10 @@ class Pruned_Problem_Transformation(ProblemTransformationBase):
             raise ValueError("The parameter b must be >= 0")
         if self.p < 1:
             raise ValueError("The pruning value must be > 0")
+        if issparse(X):
+            X = X.toarray()
+        if issparse(y):
+            y = y.toarray()
 
         X = pd.DataFrame(X)
         X.columns = ["x" + str(col) for col in X.columns]
