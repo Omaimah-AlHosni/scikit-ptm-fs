@@ -3,6 +3,7 @@ import numpy as np
 from ..problem_transformation import LabelPowerset
 from ..Base.ProblemTransformation import ProblemTransformationBase
 from scipy.sparse import csr_matrix
+from scipy.sparse import csr_matrix, issparse
 
 
 class Pruned_Problem_Transformation(ProblemTransformationBase):
