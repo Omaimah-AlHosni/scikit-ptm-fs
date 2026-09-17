@@ -23,7 +23,12 @@ class PairwiseComparsion(ProblemTransformationBase):
     
             
         ]
+    
     def transform(self, X, Y):
+        if issparse(X):
+            X = X.toarray()
+        if issparse(Y):
+            Y = Y.toarray()
         label_count = Y.shape[1]
         X_pairwise_list = []
         y_trans_list = []
