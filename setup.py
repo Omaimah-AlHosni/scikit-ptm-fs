@@ -7,7 +7,7 @@ with open(os.path.join(this_directory, 'README.md'), encoding='utf-8') as f:
 
 setup(
     name='scikit-ptm-fs',
-    version='0.12',
+    version='0.13',
     author='Omaima Al Hosni',
     author_email='alhosni_o@hotmail.com',
     description='A Python package for integrating scikit-learn feature selection with multi-label problem transformation methods.',
